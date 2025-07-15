@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.square-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.hero-text {
+  min-width: 450px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero-secondary-text {
+  margin: 0px 0px 16px 0px;
+}
+
+.hero-secondary-text,
+.header a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.logo {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.hero-main-text,
+.logo {
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 30px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;    
+  padding: 24px 200px 150px 200px;
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 435px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+}
+
+.header li {
+  flex-shrink: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: 24px 0px 48px 0px;
+}
+
+.info {
+  padding: 24px 200px 150px 200px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-image {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0%;
+  justify-content: center;
+  align-items: center;
+}
+
+.info img {
+  box-sizing: border-box;
+  width: 180px;
+  height: 180px;
+  border: 4px solid #3882F6;;
+  border-radius: 16px;
+}
+
+.info p {
+  text-align: center;
+  padding: 8px 0px;
+  margin: 0;
+  color: #5b6169;
+  font-size: 18px;
+}
