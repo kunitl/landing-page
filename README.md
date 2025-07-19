@@ -2,6 +2,7 @@
 This project serves as a practical application of the fundamental CSS skills acquired in The Odin Project's (TOP) Foundations Course. It reinforces concepts such as CSS syntax (selectors, properties, values), typography, text alignment, integrating CSS with HTML, understanding cascading and the box model, utilizing developer tools for inspection, and implementing Flexbox.
 
 Credits for images used:
+
 image: https://pixabay.com/photos/cat-kitten-young-domestic-animal-8048688/
 creator: guvo59 https://pixabay.com/users/guvo59-9285194/
 
