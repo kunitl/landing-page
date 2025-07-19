@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .square-image {
   width: 200px;
   height: 200px;
@@ -141,12 +145,12 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 120px 320px 100px 320px;
+  padding: 120px 315px 100px 315px;
 }
 
 .quote-text {
   font-size: 36px;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
   color: #1F2937;
   margin: 0;
@@ -157,5 +161,28 @@ a {
   text-align:end;
   font-weight: bold;
   color: #1F2937;
-  margin: 16px 36px 0px 0px;
+  margin: 16px 32px 0px 0px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  margin: 100px 200px;
+  padding: 50px 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.sign-up h2 {
+  margin: 0;
+}
+
+.sign-up p {
+  font-size: 16px;
+}
+
+.sign-up button {
+  border: 2px white solid;
 }
